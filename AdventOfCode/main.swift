@@ -8,8 +8,8 @@
 
 import Foundation
 
-let puzzle1 = Puzzle1();
-let puzzle1Answer = puzzle1.calculate()
+let day1 = Day1()
 
-print("Puzzle 1: \(puzzle1Answer)")
+print("Puzzle 1: \(day1.calculatePuzzle1())")
+print("Puzzle 1: \(day1.calculatePuzzle2())")
 
