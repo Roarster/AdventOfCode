@@ -8,5 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
+let puzzle1 = Puzzle1();
+let puzzle1Answer = puzzle1.calculate()
+
+print("Puzzle 1: \(puzzle1Answer)")
 
