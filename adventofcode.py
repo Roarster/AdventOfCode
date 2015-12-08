@@ -3,6 +3,7 @@ import day2
 import day3
 import day4
 import day5
+import day6
 
 print("puzzle 1: {}".format(day1.puzzle1()))
 print("puzzle 2: {}".format(day1.puzzle2()))
@@ -14,3 +15,5 @@ print("puzzle 7: {}".format(day4.puzzle7()))
 print("puzzle 8: {}".format(day4.puzzle8()))
 print("puzzle 9: {}".format(day5.puzzle9()))
 print("puzzle 10: {}".format(day5.puzzle10()))
+print("puzzle 11: {}".format(day6.puzzle11()))
+print("puzzle 12: {}".format(day6.puzzle12()))

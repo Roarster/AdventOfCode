@@ -12,3 +12,10 @@ class Point:
 
     def __hash__(self):
         return hash((self.x, self.y))
+
+    def create_rectangle_of_points(start, end):
+        points = set()
+        for x_position in range(start.x, end.x + 1):
+            for y_position in range(start.y, end.y + 1):
+                points.add(Point(x_position, y_position))
+        return points
